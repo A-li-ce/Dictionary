@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Work+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family:'Work Sans', sans-serif; 
+}
+
+body{
+    background-color: rgba(127, 122, 164, 0.8);
+}
+
+h1{
+    font-size: 2rem;
+    color: aliceblue;
+    text-shadow: 2px 5px 20px rgb(103, 22, 169);
+    text-align: center;
+    margin-top: 10vmin;
+}
+
+.container{
+    background-color: rgba(234, 236, 239, 0.816);
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 15px;
+    box-shadow: 10px 20px 40px rgba(106, 43, 123, 0.349);
+}
+
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input{
+    width: 70%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #80008084;
+    background-color:transparent;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.search-box #search-btn{
+    padding: 15px 0;
+    width: 28%;
+    border: none;
+    outline: none;
+    background-color:  rgba(127, 122, 164, 0.8);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color:white ;
+}
+
+.search-box #search-btn:hover{
+    background-color:  rgba(116, 111, 149, 0.8);
+    cursor: pointer;
+}
+
+.result{
+    position: relative;
+}
+
+.result h3{
+    font-size: 2rem;
+    color: rgba(42, 124, 64, 0.775);
+    font-weight: 500;
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0;
+}
+
+.word button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #22727cb2;
+    margin-right: 12px;
+}
+
+.word button:hover{
+    cursor: pointer;
+    color: #2f9189b2;
+
+}
+
+.result .details{
+    display: flex;
+    gap: 10px;
+    margin: -60px 0 20px 0;
+    color: rgb(115, 151, 151);
+    font-size: 0.8rem;
+}
+
+.word-meaning{
+    color: rgb(71, 101, 91);
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.word-example{
+    font-style: italic;
+    border-left: 4px solid #80008084;
+    padding-left:20px;
+    margin: 30px 30px 30px 0;
+    color: #3a0d3a84;
+    font-weight: 600;
+}
